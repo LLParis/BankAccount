@@ -43,5 +43,5 @@ A robust console application for managing bank accounts. This project supports:
 Bank Account System
 1. Create Savings Account
 2. Create Checking Account
-3. ...
+3. .../n
 Follow the prompts to create accounts, deposit, withdraw, etc.
