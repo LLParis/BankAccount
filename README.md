@@ -35,3 +35,8 @@ A robust console application for managing bank accounts. This project supports:
    ```bash
    git clone https://github.com/yourusername/my-bank-project.git
    cd my-bank-project
+2. Compile and run:
+   ```bash
+   javac -d . src/*.java
+   java BankSystem
+## Usage
