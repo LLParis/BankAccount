@@ -3,7 +3,6 @@
  * It provides an interactive menu for creating Checking/Savings accounts,
  * making deposits/withdrawals, loading/saving accounts to a file,
  * and viewing summaries of all accounts.
- *
  * NOTE: This class depends on BankAccount, CheckingAccount,
  * SavingsAccount, and Transaction classes.
  *
@@ -125,7 +124,7 @@ public class BankSystem {
 
         SavingsAccount account = new SavingsAccount(name, id, balance);
 
-        System.out.print("Enter annual interest rate (e.g. 1.5 for 1.5%): ");
+        System.out.print("Enter annual interest rate (1.5 for 1.5%): ");
         double rate = Double.parseDouble(input.nextLine());
         account.setAnnualInterestRate(rate);
 

@@ -99,16 +99,11 @@ public class BankAccount {
      * getAnnualInterestRate: Returns the current annual interest rate
      * as a percentage.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param
-     *   void
-     * @return
-     *   the double annual interest rate
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param void
+     * @return the double annual interest rate
+     * @since 14 Feb 2025
      */
     public double getAnnualInterestRate() {
         return annualInterestRate;
@@ -117,16 +112,11 @@ public class BankAccount {
     /**
      * getDateCreated: Returns the Date the account was created.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param
-     *   void
-     * @return
-     *   a Date object representing the creation date
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param void
+     * @return a Date object representing the creation date
+     * @since 14 Feb 2025
      */
     public Date getDateCreated() {
         return dateCreated;
@@ -135,16 +125,11 @@ public class BankAccount {
     /**
      * getCustomerName: Returns the customer's name.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param
-     *   void
-     * @return
-     *   a String representing the customer's name
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param void
+     * @return a String representing the customer's name
+     * @since 14 Feb 2025
      */
     public String getCustomerName() {
         return customerName;
@@ -154,16 +139,11 @@ public class BankAccount {
      * getTransactions: Returns the list of transactions associated
      * with this account.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param
-     *   void
-     * @return
-     *   an ArrayList of Transaction objects
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param void
+     * @return an ArrayList of Transaction objects
+     * @since 14 Feb 2025
      */
     public ArrayList<Transaction> getTransactions() {
         return transactions;
@@ -192,20 +172,15 @@ public class BankAccount {
 
     /**
      * getMonthlyInterestRate: Returns the monthly interest rate,
-     * i.e. (annualInterestRate / 12) as a decimal, not a percentage.
+     * (annualInterestRate / 12) as a decimal, not a percentage.
      * Example: if annualInterestRate is 1.5%, this method returns
      * 0.015 / 12 = 0.00125.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param
-     *   void
-     * @return
-     *   the monthly interest rate in decimal form
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param void
+     * @return the monthly interest rate in decimal form
+     * @since 14 Feb 2025
      */
     public double getMonthlyInterestRate() {
         return (annualInterestRate / 100.0) / 12.0;
@@ -215,16 +190,11 @@ public class BankAccount {
      * getMonthlyInterest: Returns the monthly interest in dollars,
      * calculated as balance * monthlyInterestRate.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param
-     *   void
-     * @return
-     *   the monthly interest amount
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param void
+     * @return the monthly interest amount
+     * @since 14 Feb 2025
      */
     public double getMonthlyInterest() {
         return balance * getMonthlyInterestRate();
@@ -235,18 +205,12 @@ public class BankAccount {
      * if there are sufficient funds. This generic method is overridden
      * by subclasses for special rules.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param amount
-     *   The amount to withdraw
-     * @param description
-     *   A short description for this withdrawal
-     * @return
-     *   void
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param amount The amount to withdraw
+     * @param description A short description for this withdrawal
+     * @return void
+     * @since 14 Feb 2025
      */
     public void withdraw(double amount, String description) {
         if (balance >= amount) {
@@ -259,21 +223,15 @@ public class BankAccount {
     }
 
     /**
-     * deposit: Deposits the specified amount into this account and
+     * deposit: Deposits the amount into this account and
      * records a transaction.
      *
-     * @author
-     *   STUDENT_LAST_NAME
-     * @version
-     *   1.0
-     * @param amount
-     *   The amount to deposit
-     * @param description
-     *   A short description for this deposit
-     * @return
-     *   void
-     * @since
-     *   14 Feb 2025
+     * @author London Paris
+     * @version 1.0
+     * @param amount The amount to deposit
+     * @param description A short description for this deposit
+     * @return void
+     * @since 14 Feb 2025
      */
     public void deposit(double amount, String description) {
         balance += amount;

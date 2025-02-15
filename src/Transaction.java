@@ -3,9 +3,7 @@
  * a bank account. It includes the transaction date, type
  * (Deposit or Withdrawal), amount, balance, and
  * a description.
- *
  * The transactionType is 'D' for deposit and 'W' for withdrawal.
- *
  * NOTE: This class is used by BankAccount and its subclasses
  * to log deposit/withdraw actions.
  *
