@@ -40,3 +40,7 @@ A robust console application for managing bank accounts. This project supports:
    javac -d . src/*.java
    java BankSystem
 ## Usage
+Bank Account System
+1. Create Savings Account
+2. Create Checking Account
+3. ...
