@@ -44,3 +44,4 @@ Bank Account System
 1. Create Savings Account
 2. Create Checking Account
 3. ...
+Follow the prompts to create accounts, deposit, withdraw, etc.
