@@ -46,3 +46,16 @@ Bank Account System
 3. ...
    
 Follow the prompts to create accounts, deposit, withdraw, etc.
+## Diagram
+classDiagram
+    class BankAccount {
+      - int accountID
+      - double balance
+      + deposit()
+      + withdraw()
+      + getMonthlyInterest()
+    }
+    class CheckingAccount
+    class SavingsAccount
+    BankAccount <|-- CheckingAccount
+    BankAccount <|-- SavingsAccount
