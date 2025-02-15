@@ -47,6 +47,7 @@ Bank Account System
    
 Follow the prompts to create accounts, deposit, withdraw, etc.
 ## Diagram
+   ```
    classDiagram
     class BankAccount {
       - int accountID
