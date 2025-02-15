@@ -47,7 +47,7 @@ Bank Account System
    
 Follow the prompts to create accounts, deposit, withdraw, etc.
 ## Diagram
-classDiagram
+   classDiagram
     class BankAccount {
       - int accountID
       - double balance
@@ -59,3 +59,4 @@ classDiagram
     class SavingsAccount
     BankAccount <|-- CheckingAccount
     BankAccount <|-- SavingsAccount
+
